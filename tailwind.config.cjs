@@ -11,7 +11,7 @@ module.exports = {
         'footer-bg': 'url("/src/assets/images/footer-bkg.png")'
       },
       colors:{
-        'dark-gray': '#25272E'
+        'dark-gray': '#25272E',
       },
     },
   },
