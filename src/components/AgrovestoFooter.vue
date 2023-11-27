@@ -1,7 +1,7 @@
 <template>
-    <footer class="bg-footer-bg bg-no-repeat bg-left bg-dark-gray text-gray-400 py-10 px-28">
-        <section class="flex justify-start items-start my-16">
-            <div class="mr-16">
+    <footer class="bg-footer-bg bg-no-repeat bg-left bg-dark-gray text-gray-400 py-10 px-6 md:px-8 lg:px-16 xl:px-20">
+        <section class="grid grid-cols-1 gap-10 md:gap-5 md:grid-cols-3 py-10">
+            <div class="">
               <h2 class="text-white text-lg font-semibold">
                 NEWSLETTER SUBSCRIBE
               </h2>
@@ -10,13 +10,13 @@
                 and we will inform you about <br>
                 newest projects and promotions.
               </P>
-              <form class="flex justify-center items-center mt-7">
+              <form class="flex justify-start mt-7">
                 <input class="px-5 py-2 text-sm bg-gray-500 rounded-tl rounded-bl outline-0" type="email" placeholder="Your email...">
                 <a href="" class="px-3 py-2 bg-green-600 text-white text-sm rounded-tr rounded-br"><i class="fa-solid fa-envelope"></i></a>
               </form>
             </div>
 
-            <div class="mr-24">
+            <div class="">
               <h2 class="text-white text-lg font-semibold mb-5">QUICK LINKS</h2>
               <ul>
                 <li class="mb-3 text-sm"><i class="fa-solid fa-angle-right"></i><router-link class="ml-2.5 hover:text-green-600" to="">About us</router-link></li>
@@ -51,7 +51,7 @@
             </div>
         </section>
 
-      <p class="border-t border-t-gray-600 text-xs pt-4 pl-4">Agrovesto.</p>
+      <p class="border-t border-t-gray-600 text-xs pl-4">Agrovesto.</p>
     </footer>
 </template>
 
