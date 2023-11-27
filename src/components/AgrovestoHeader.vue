@@ -10,11 +10,11 @@
         <li class="ml-7 relative cursor-pointer group">
           <div class="group" onclick="">
             <div>
-              <a class="pb-6 hover:border-b-green-600 hover:border-b-2">
+              <a class="pb-6">
                 SERVICES
               </a>
             </div>
-            <div class="invisible absolute z-50 bg-white top-11 w-48 border rounded shadow-xl group-hover:visible">
+            <div class="invisible absolute z-50 bg-white top-10 w-48 border rounded shadow-xl group-hover:visible">
               <ul>
                 <li class="mx-3 py-2 border-b border-b-gray-300"><a class="hover:text-green-500" href="">Buy Farm Produce</a></li>
                 <li class="mx-3 mt-2 py-2 border-b border-b-gray-300"><a class="hover:text-green-500" href="">Trade Commodities</a></li>
