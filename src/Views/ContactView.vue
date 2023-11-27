@@ -1,14 +1,13 @@
 <template>
   <section>
-    <div class="relative">
-      <img src="/src/assets/images/ocean-page-title08.jpg" alt="ocean view">
-      <h2 class="absolute grid w-full place-items-center bottom-24 text-4xl font-bold">
+    <div class="bg-[url('/src/assets/images/ocean-page-title08.jpg')] bg-cover bg-no-repeat bg-center py-32 px-16 md:px-32 grid w-full place-items-center">
+      <h2 class="bottom-28 text-3xl md:bottom-20 lg:bottom-24 md:text-4xl font-bold text-gray-900">
         Contact
       </h2>
     </div>
 
-    <div class="flex px-28 py-16">
-      <section class="w-1/2">
+    <div class="grid grid-cols-1 gap-10 px-6 py-16 md:grid-cols-2 md:px-8 md:py-16 lg:px-16 xl:px-20">
+      <section class="">
         <line class="flex border border-yellow-400 w-12 h-1 bg-yellow-400 mb-1"></line>
         <h2 class="text-xl font-bold mb-7">YOUR ENQUIRY</h2>
         <p class="text-sm text-gray-600 ">
@@ -53,14 +52,14 @@
         </form>
       </section>
 
-      <section class="ml-10">
+      <section class="hidden md:block">
         <line class="flex border border-yellow-400 w-12 h-1 bg-yellow-400 mb-1"></line>
         <h2 class="text-lg font-bold mb-7">COMPANY INFORMATION</h2>
         <p class="text-sm mb-2 text-gray-600">
           Plot 770 Innovation Plaza, <br>
           Wuye, Abuja
         </p>
-        <span class="my-2 text-gray-600 text-sm text-green-500 block">
+        <span class="my-2 text-sm text-green-500 block">
           +234 9010674515
         </span>
         <a href="#" class="text-sm text-gray-600 hover:text-blue-600">
